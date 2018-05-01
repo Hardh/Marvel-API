@@ -5,6 +5,8 @@ const router = express.Router();
 const logger = require('./helpers/logger')
 
 app.use(function (req, res, next) {
+    //Marcando header
+    res.setHeader('Content-Type', 'application/json');
     logger.info(req.ip);
     next();
 });

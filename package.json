@@ -4,6 +4,7 @@
   "description": "Consumindo API Marvel",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon bin/dev",
     "test": "npm test"
   },
   "repository": {
@@ -18,6 +19,12 @@
   "homepage": "https://github.com/Hardh/Marvel-API#readme",
   "dependencies": {
     "chalk": "^2.4.1",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "md5": "^2.2.1",
+    "q": "^1.5.1",
+    "request": "^2.85.0"
+  },
+  "devDependencies": {
+    "dotenv": "^5.0.1"
   }
 }
