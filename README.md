@@ -2,7 +2,7 @@
 Consumindo Marvel API utilizando Express
 
 ### Premissas
-Para utilizar deve-se no arquivo .env existir as duas variaveis:
+Para utilizar deve existir no arquivo .env as duas variaveis abaixo:
 
 ```
 PUBLIC_KEY = ''
@@ -15,8 +15,10 @@ Essas fornecidas pela [Marvel](https://developer.marvel.com).
 
 ### Comandos
 
+Start:
+
 ```
-Start: node bin/dev
+node bin/dev
 ```
 
 
