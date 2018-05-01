@@ -4,7 +4,7 @@
   "description": "Consumindo API Marvel",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon bin/dev",
+    "start": "node bin/dev",
     "test": "npm test"
   },
   "repository": {
