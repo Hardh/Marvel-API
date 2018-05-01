@@ -1,0 +1,23 @@
+{
+  "name": "marvel-api",
+  "version": "1.0.0",
+  "description": "Consumindo API Marvel",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hardh/Marvel-API.git"
+  },
+  "author": "Alisson Dias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hardh/Marvel-API/issues"
+  },
+  "homepage": "https://github.com/Hardh/Marvel-API#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "express": "^4.16.3"
+  }
+}
