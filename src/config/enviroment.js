@@ -16,6 +16,7 @@ const auth = () => {
 
 class EndPoints {
     static characters() { return baseUrl + `/v1/public/characters` + auth() }
+    static characterById(id) { return baseUrl + `/v1/public/characters/${id}` + auth() }
 }
 
 module.exports = {
